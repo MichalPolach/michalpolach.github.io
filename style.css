@@ -14,7 +14,7 @@ main {
   margin: auto;
 	line-height:1.4;
 	font-size: 16px;
-  font-size: 1.2vw;
+  /*font-size: 1.2vw;*/
   padding: 1em;
   background-color: /*#0d0d0d*/ #020210;
   border: 2px solid #915f00;
@@ -24,8 +24,8 @@ h1 {
 	color: #458588;
   font-family: Computer Modern;
 	font-weight: Bold;
-  /*font-size: 40px;*/
-  font-size: 3vw;
+  font-size: 40px;
+  /*font-size: 3vw;*/
 	text-shadow: -3px 2px 8px #0000be;
 	text-align: center;
   margin: auto;
@@ -224,6 +224,7 @@ display: inline-block;
 }
 
 .list1 ul {
+  font-size: 1.2vw;
   font-weight: bold;
   list-style-type: none;
   margin-left: 150px;
