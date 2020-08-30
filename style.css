@@ -24,8 +24,8 @@ h1 {
 	color: #458588;
   font-family: Computer Modern;
 	font-weight: Bold;
-  font-size: 40px;
-  /*font-size: 3vw;*/
+  /*font-size: 40px;*/
+  font-size: 3vw;
 	text-shadow: -3px 2px 8px #0000be;
 	text-align: center;
   margin: auto;
