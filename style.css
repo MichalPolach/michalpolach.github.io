@@ -20,25 +20,6 @@ main {
   border: 2px solid #915f00;
 }
 
-h1 {
-	color: #458588;
-  font-family: Computer Modern;
-	font-weight: Bold;
-  /*font-size: 40px;*/
-  font-size: 3vw;
-	text-shadow: -3px 2px 8px #0000be;
-	text-align: center;
-  margin: auto;
-  padding: auto;
-}
-
-span.procras {
-  background-color: #00141e;
-  border: 1px solid #005000;
-  padding-top: 21px;
-  padding-bottom: 12px;
-}
-
 hr.main {
   color: #458588;
   margin: 30px;
@@ -75,18 +56,6 @@ code {
 	color: green
 }
 
-cite {
-  font-size: 80%;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-aside {
-  text-align: center;
-}
-
 img.doomer  {
   width: 100%;
   height: auto;
@@ -120,6 +89,30 @@ img.philosophy {
   margin-right: auto;
 }
 
+.header {
+  color: #458588;
+  font-family: Computer Modern;
+	font-weight: Bold;
+	text-shadow: -3px 2px 8px #0000be;
+	text-align: center;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.header p {
+  font-size: 12px;
+  color: #458588;
+}
+
+.header h1 {
+  font-size: 3vw;
+  background-color: #00141e;
+  border: 1px solid #005000;
+  margin: auto;
+  padding: 16px;
+  max-width: 500px;
+}
+
 .centered {
   max-width: 700px;
   margin-top: 35px;
@@ -142,8 +135,8 @@ img.philosophy {
 
 .floatleft img {
   float: left;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 50%;
+  max-height: auto;
   margin-top: 5px;
   margin-bottom: 20px;
   margin-left: auto;
@@ -152,8 +145,8 @@ img.philosophy {
 
 .floatright img {
   float: right;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 35%;
+  max-height: auto;
   margin-top: 5px;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -184,21 +177,12 @@ img.philosophy {
   box-shadow: 0px 0px 50px #004a00;
 }
 
-.navi {
-  text-align: center;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0
-}
-
 .navi ul {
+  text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #00141e;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
   border: 1px solid #915f00;
 }
 
@@ -208,9 +192,9 @@ display: inline-block;
 
 .navi li a {
   display: block;
-  padding: 8px;
   color: #458588;
-  padding: 14px 35px;
+  margin: 0px auto;
+  padding: 15px;
   text-decoration: none;
 }
 
@@ -224,12 +208,21 @@ display: inline-block;
 }
 
 .list1 ul {
-  font-size: 1.2vw;
+  list-style: none;
+  text-align: center;
   font-weight: bold;
-  list-style-type: none;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding: 15px;
+  margin: 50px auto;
+  padding: 25px;
+  max-width: 60%;
+  line-height: 1.6;
   background-color: #00141e;
   border: 1px solid #915f00;
+}
+
+@media screen and (max-width: 670px) {
+
+  .navi li {
+  display: block;
+  }
+
 }
