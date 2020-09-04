@@ -105,7 +105,7 @@ img.philosophy {
 }
 
 .header h1 {
-  font-size: 3vw;
+  font-size: 200%;
   background-color: #00141e;
   border: 1px solid #005000;
   margin: auto;
@@ -223,6 +223,32 @@ display: inline-block;
 
   .navi li {
   display: block;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .header h1 {
+    font-size: 150%;
+    background-color: #00141e;
+    border: 1px solid #005000;
+    margin: auto;
+    padding: 16px;
+    max-width: 500px;
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+
+  .header h1 {
+    font-size: 100%;
+    background-color: #00141e;
+    border: 1px solid #005000;
+    margin: auto;
+    padding: 16px;
+    max-width: 500px;
   }
 
 }
