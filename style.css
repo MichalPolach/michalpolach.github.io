@@ -52,6 +52,10 @@ p, ul, ol, aside, cite {
   margin: 25px 25px;
 }
 
+aside {
+  text-align: center;
+}
+
 code {
 	color: green
 }
